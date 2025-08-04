@@ -1,0 +1,72 @@
+h1{
+    color: hsl(180, 3%, 93%);
+    -webkit-text-stroke: 5px #151414;
+    margin: 10px 0px 0px 25%;
+    font-size: 80px;
+    font-weight: 800;
+    text-shadow:
+    0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,0.1),
+    0 0 5px #f0f,
+    0 0 10px #f0f,
+    0 0 20px #f0f;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body {
+    background-image: url("https://motionbgs.com/media/958/akaza-kimetsu-no-yaiba.jpg"); /* Caminho relativo dentro da pasta static */
+    background-size: cover;       /* Preenche toda a tela */
+    background-position: center;  /* Centraliza */
+    background-repeat: no-repeat; /* Evita repetição */
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #ffffff;}
+button{
+    font-size: 50px; 
+    color: aqua;
+    background-color: #151414;
+    -moz-border-top-colors: aqua;
+    height: 80px;
+    width: 1000px;
+    margin: 10px 10px 10px 100px;
+    border-radius: 100px;
+    border-color: #f0f;
+    box-shadow: 0 0px 80px #f0f;}
+
+.fotos{
+    display: flex;
+    margin: 70px 10px 10px 35px;
+    
+    
+}
+
+
+.imagem1 {
+    width: 300px;
+    height: 600px;
+    box-shadow: 0 0 15px #0ff, 0 0 0px #0ff, 0 0 0px #0ff;
+}
+
+.imagem2 {
+    width: 300px;
+    height: 600px;
+    box-shadow: 0 0 15px #0ff, 0 0 0px #0ff, 0 0 0px #0ff;
+}
+
+.imagem3 {
+    width: 300px;
+    height: 600px;
+    box-shadow: 0 0 15px #0ff, 0 0 0px #0ff, 0 0 0px #0ff;
+}
+
+.imagem4 {
+    width: 300px;
+    height: 600px;
+    box-shadow: 0 0 15px #0ff, 0 0 0px #0ff, 0 0 0px #0ff;
+    
+}
